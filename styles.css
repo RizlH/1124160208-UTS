@@ -18,6 +18,49 @@ header {
 
 }
 
+.wrapper {
+    width: 1024px;
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.wrapper > div > a {
+    text-decoration: none;
+    color: azure;
+}
+
+nav {
+    background-color:rgb(34, 34, 34);
+    color: azure;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav > .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    width: 50%;
+}
+
+.menu > ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+.menu > ul > li > a {
+    text-decoration: none;
+    color: azure;
+}
+
+
 .header-opacity {
     background-color: #ffffff;
     width: 100%;
