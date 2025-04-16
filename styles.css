@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    font-size: 24px;
+    font-family: "Bebas Neue", serif;
+}
+
+header {
+    background: url("images/backround.jpg");
+    height: 180vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.header-opacity {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.20;
+    top: 0;
+    left: 0;
+}
+
+.header-ultraman{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.header-ultraman > .header-spiderman {
+    color: #fff;
+    background-color: rgba(57, 57, 57, 0.800);
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    line-height: 0.3;
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Bebas Neue", serif;
+}
+
+.header-ultraman > img {
+    border-radius: 50%; 
+    width: 400px; 
+    height: 400px;
+}
