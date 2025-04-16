@@ -167,3 +167,24 @@ tr:hover{
     margin-left: auto;
     margin-right: auto;
 }
+
+#footer {
+    background-color: rgb(34, 34, 34);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.sosmed {
+    list-style: none;
+}
+
+.sosmed li{
+    display: inline;
+    margin: 0 15px;
+}
+
+.sosmed a {
+    color: #fff;
+    text-decoration: none;
+}
